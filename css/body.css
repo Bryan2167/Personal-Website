@@ -8,10 +8,26 @@ p {
   margin: 0.25rem 0;
 }
 
+figure {
+  border: 2px solid blue;
+  padding: 0.5rem;
+}
+figcaption {
+  text-align: right;
+}
 body {
   display: grid;
   grid-template-rows: auto 1fr auto;
   min-height: 100vh;
+}
+
+img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+section {
+  border-top: solid rgb(157, 6, 16);
 }
 
 #content {
